@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart';
-import 'package:roadside_assistance/base_controller.dart';
+import 'package:roadside_assistance/controller/base_controller.dart';
 import 'package:roadside_assistance/base_client.dart';
 
 
@@ -15,9 +15,9 @@ import 'package:roadside_assistance/base_client.dart';
 // import 'package:littleswanpreschool/View/BottomBar/BottomBarIndex.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'Models/login.dart';
-import 'bottombar_index.dart';
-import 'dialog_helper.dart';
+import '../Models/login.dart';
+import '../views/bottombar_index.dart';
+import '../dialog_helper.dart';
 
 class LoginController extends GetxController with BaseController {
 

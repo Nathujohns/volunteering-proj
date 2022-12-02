@@ -3,7 +3,7 @@ import 'package:clay_containers/widgets/clay_container.dart';
 import 'package:flutter/material.dart';
 import 'package:keyboard_actions/keyboard_actions.dart';
 import 'package:keyboard_actions/keyboard_actions_config.dart';
-import 'package:roadside_assistance/signIn_controller.dart';
+import 'package:roadside_assistance/controller/signIn_controller.dart';
 import 'package:get/get.dart';
 // import 'package:keyboard_actions/keyboard_actions.dart';
 // import 'package:littleswanpreschool/Controller/login_controller.dart';
@@ -41,7 +41,7 @@ class _LoginState extends State<Login> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFF54c6da),
+      backgroundColor: const Color(0xFF54c6da),
       body: SafeArea(
         child: KeyboardActions(
           config: _buildConfig(context),
@@ -64,9 +64,9 @@ class _LoginState extends State<Login> {
                         children: [
                           SizedBox(height: 16,),
                           Container(
-                            padding: EdgeInsets.symmetric(horizontal: 60,),
+                            padding: const EdgeInsets.symmetric(horizontal: 60,),
                             height: 150,
-                            child: Image(
+                            child: const Image(
                               image: AssetImage('assets/logo.png'),
                             ),
                           ),
@@ -101,7 +101,7 @@ class _LoginState extends State<Login> {
                                           focusNode: _nodeText1,
                                           keyboardType: TextInputType.name,
                                           // initialValue: 'Input text',
-                                          decoration: InputDecoration(
+                                          decoration: const InputDecoration(
                                             labelText: 'User name',
                                             // errorText: 'Error message',
                                             border: OutlineInputBorder(),
@@ -120,7 +120,7 @@ class _LoginState extends State<Login> {
                                           focusNode: _nodeText11,
                                           keyboardType: TextInputType.name,
                                           // initialValue: 'Input text',
-                                          decoration: InputDecoration(
+                                          decoration: const InputDecoration(
                                             labelText: 'Password',
                                             // errorText: 'Error message',
                                             border: OutlineInputBorder(),
@@ -170,7 +170,7 @@ class _LoginState extends State<Login> {
                                             ),
                                             alignment: Alignment.center,
                                             height: 50,
-                                            decoration: BoxDecoration(
+                                            decoration: const BoxDecoration(
                                               color: Color(0xff26178a),
                                               borderRadius: BorderRadius.all(
                                                   Radius.circular(10)),

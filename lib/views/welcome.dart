@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:roadside_assistance/top_banner.dart';
-import 'package:roadside_assistance/welcome_text.dart';
+import 'package:roadside_assistance/views/welcome_text.dart';
 // import 'package:travel_app/Screens/welcome/components/top_banner.dart';
 // import 'package:travel_app/Screens/welcome/components/welcome_text.dart';
 

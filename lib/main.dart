@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:roadside_assistance/welcome.dart';
+import 'package:roadside_assistance/views/welcome.dart';
 import 'package:roadside_assistance/contants.dart';
 // import 'package:google_fonts/google_fonts.dart';
 // import 'package:travel_app/Screens/welcome/welcome.dart';

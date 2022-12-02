@@ -1,14 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:roadside_assistance/create_Event.dart';
-import 'package:roadside_assistance/events.dart';
-import 'package:roadside_assistance/profile.dart';
+import 'package:roadside_assistance/views/create_Event.dart';
+import 'package:roadside_assistance/views/events.dart';
+import 'package:roadside_assistance/views/profile.dart';
 // import 'package:littleswanpreschool/View/exam.dart';
 // import 'package:littleswanpreschool/View/home_work.dart';
 // import 'package:littleswanpreschool/View/settings.dart';
 
-import '../home.dart';
+import 'home.dart';
 
 
 class BottomBarIndex extends StatefulWidget {

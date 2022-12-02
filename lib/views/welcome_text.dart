@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:roadside_assistance/Sign_In.dart';
+import 'package:roadside_assistance/views/Sign_In.dart';
 // import 'package:roadside_assistance/Screens/home/home.dart';
 import 'package:roadside_assistance/main.dart';
 // import 'package:travel_app/Screens/welcome/components/welcome_button.dart';
 // import 'package:travel_app/constants.dart';
 import 'package:roadside_assistance/contants.dart';
 import 'package:roadside_assistance/responsive.dart';
-import 'package:roadside_assistance/welcome_button.dart';
+import 'package:roadside_assistance/views/welcome_button.dart';
 
 import 'home.dart';
 // import 'package:travel_app/responsive.dart';

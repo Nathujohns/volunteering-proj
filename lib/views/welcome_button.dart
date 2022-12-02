@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/material.dart';
 import 'package:roadside_assistance/responsive.dart';
 
-import 'contants.dart';
+import '../contants.dart';
 // import 'package:travel_app/constants.dart';
 // import 'package:travel_app/responsive.dart';
 
